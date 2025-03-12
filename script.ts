@@ -3,8 +3,8 @@
 const lover1 = document.getElementById("firstPerson") as HTMLInputElement | null;
 const lover2 = document.getElementById("secondPerson") as HTMLInputElement | null;
 const calculateButton = document.getElementById("calculate") as HTMLButtonElement | null;
-const showcase1 = document.getElementById("showcase1");
-const showcase2 = document.getElementById("showcase2");
+const showcase1 = document.getElementById("showcase1") as HTMLDivElement | null;
+const showcase2 = document.getElementById("showcase2") as HTMLDivElement | null;
 
 // Ensure elements exist before attaching event listeners
 if (lover1 && lover2 && calculateButton && showcase1 && showcase2) {
